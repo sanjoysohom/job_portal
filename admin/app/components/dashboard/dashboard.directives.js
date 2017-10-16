@@ -1,4 +1,4 @@
-angular.module('angular_practice')
+angular.module('job_portal')
     /*
      * --------------------------------------------------------------------------
      * @ Directive Name           : dashboardHeader()

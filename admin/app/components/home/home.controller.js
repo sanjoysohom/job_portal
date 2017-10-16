@@ -1,5 +1,5 @@
 angular
-	.module('angular_practice')
+	.module('job_portal')
 	.controller('homeController', ["$scope", "$http", "$window", "$q", 'ajaxService', 'CONFIG', '$location', '$timeout', '$cookies', 'helper', function($scope, $http, $window, $q, ajaxService, CONFIG, $location, $timeout, $cookies, helper){
      	// Perform the login action when the user submits the login form
 		$scope.doLogin = function(loginData) { 

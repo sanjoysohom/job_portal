@@ -1,5 +1,5 @@
 angular
-	.module('angular_practice')
+	.module('job_portal')
 	.controller('productController', ["$scope", 'ajaxService', 'CONFIG', '$location', '$timeout', '$cookies', '$state', "helper", "$rootScope",'$window', function($scope, ajaxService, CONFIG, $location, $timeout, $cookies, $state, helper, $rootScope,$window)
 	{
 		//alert($state.$current.name);

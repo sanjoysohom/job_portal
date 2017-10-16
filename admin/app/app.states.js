@@ -6,7 +6,7 @@
  */
 
 angular
-    .module('angular_practice')
+    .module('job_portal')
     .run(function($rootScope, CONFIG, $state, helper, $confirmModalDefaults, $location){
       
         $rootScope.CONFIG = CONFIG;

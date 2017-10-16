@@ -1,5 +1,5 @@
 angular
-	.module('angular_practice')
+	.module('job_portal')
 	.controller('dashboardController',["$scope", 'ajaxService', 'CONFIG', '$location', '$timeout', '$cookies', '$state', "helper", "$rootScope",'$stateParams','$window',function($scope,ajaxService,CONFIG,$location,$timeout,$cookies, $state, helper, $rootScope, $stateParams,$window){
 		$scope.ChangePassword = {};
 		

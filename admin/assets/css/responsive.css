@@ -1,0 +1,49 @@
+/*==================================================
+=                Responsive styles                 =
+==================================================*/
+@media screen and (max-width:1000px){
+.midsection_form {
+    width: 90%;
+    margin: 10px auto;
+}
+.form_sec {
+    padding: 20px;
+}
+.form_sec input[type="text"], .form_sec input[type="password"] {
+    padding: 0 10px;
+    min-height: 40px;
+}
+.btn_green {
+    padding: 15px 0;
+    font-size: 20px;
+    font-size: 2rem; 
+}
+.steps_frgtpswd a {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.steps_frgtpswd span {
+    float: none;
+    display: block;
+}
+}
+@media screen and (min-width:600px) and (max-width:1000px){
+.form_sec input[type="text"], .form_sec input[type="password"] {
+    padding: 0 20px;
+    min-height: 50px;
+}
+.btn_green {
+    padding: 20px 0;
+    font-size: 22px;
+    font-size: 2.2rem;
+}
+.steps_frgtpswd a {
+    float: left;
+    display: inline-block; 
+}
+.steps_frgtpswd span {
+    float: right;
+    display: inline-block;
+}
+}

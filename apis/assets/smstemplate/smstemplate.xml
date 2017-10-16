@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sms>
+    <smsconfiguration id="USER"><data>maybrightventures</data></smsconfiguration>
+    <smsconfiguration id="PASSWORD"><data>118000</data></smsconfiguration>
+    <smsconfiguration id="SID"><data>MPOKKT</data></smsconfiguration>
+    <smstemplate category="WELCOME"><smsdata><!--<![CDATA[-->Welcome to mPokket.com<!--]]>--></smsdata></smstemplate>
+    <smstemplate category="TESTMSG"><smsdata><!--<![CDATA[-->Hello test message %ignore%<!--]]>--></smsdata></smstemplate>
+      <smstemplate category="URLPARAM"><smsdata><!--<![CDATA[-->login.smsgatewayhub.com/smsapi/pushsms.aspx?user=%user% :pwd=%pwd% :to=%mobile% :sid=%sid% :msg=#msg# :fl=0 :gwid=2<!--]]>--></smsdata></smstemplate>
+    <smstemplate category="MOBVER"><smsdata><!--<![CDATA[-->Your mPokket verification code is %code%<!--]]>--></smsdata></smstemplate>
+</sms>

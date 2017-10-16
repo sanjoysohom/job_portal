@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mundidoc\.com$
+RewriteRule (.*) https://www.mundidoc.com/$1 [R=301,L]
+RewriteRule ^$ co [L]

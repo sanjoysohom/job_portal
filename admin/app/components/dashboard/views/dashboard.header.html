@@ -1,0 +1,59 @@
+          &nbsp;&nbsp;&nbsp;<a href="#/dashboard/welcome" style="color:white;" ng-if="parentBreadcrumb">
+          {{parentBreadcrumb}} --></a>
+           <a href="#/dashboard/employee/list" style="color:white;" ng-if="breadcrumb">{{breadcrumb}}</a>
+           <a href="" style="color:white;" ng-if="carousel"> --> {{carousel}}</a>
+         
+<ul class="top_right_ul animated slideInLeft">
+
+        
+          <li class="dropdown"><a id="dLabel" data-target="#" href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="usr_img"><img src="http://localhost/angular_obr/assets/resources/profile/thumb/1.jpg" alt=""></span>Welcome, Admin<i class="fa fa-angle-right left_slider_btn" aria-hidden="true"></i></a>
+           
+          </li>
+          
+        </ul>
+
+
+ <!-- Modal for Add more Start -->
+  <div class="modal fade" id="change_pass" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Change password</h4>
+
+           
+
+          <span id="change_error" style="color:red;"></span>
+          <span id="change_success" style="color:green;"></span>
+        </div>
+        <div id="login-alert" class="alert alert-danger col-sm-12" style="text-align:center; margin-top: 5px;" ng-if="errorMessage">{{errorMessage}}</div>
+
+        <div id="login-alert" class="alert alert-success col-sm-12"style="text-align:center; margin-top: 5px;" ng-if="successMessage">{{successMessage}} </div>
+
+        <div class="modal-body">        
+        <form class="chengepass_frm_fld" ng-submit="doChangePassword(ChangePassword)" role="form" novalidate="" name="ChangePassword">
+        <div class="row">
+          <div class="col-md-12"><div class="form-group">
+          <input id="old_pass"  ng-model="ChangePassword.old_password" type="text" class="form-control" placeholder="Old Password" ng-required="true"></div></div>
+          
+
+
+          <div class="col-md-12"><div class="form-group"><input id="new_pass" 
+          ng-model="ChangePassword.new_password" type="password" class="form-control" placeholder="New Password" ng-required="true"></div></div>
+
+          <div class="col-md-12"><div class="form-group"><input id="conf_pass" 
+          ng-model="ChangePassword.confirm_password" type="password" class="form-control" placeholder="confirm password" ng-required="true"></div></div>
+            
+        </div>
+          <button type="button" class="btn btn-default popup_save_btn changepass_save_btn changepass_cncl_btn" data-dismiss="modal">Cancel</button>
+           
+           <input type="submit" class="btn btn-default popup_save_btn changepass_save_btn" 
+           value="Save" ng-disabled="ChangePassword.$invalid">
+
+        </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Modal for Add more End -->

@@ -1,0 +1,35 @@
+<?php
+$lang["lbl_api_invalid_parameter"] = "Invalid Parameter";
+$lang["lbl_api_account_not_activated"] = "Account not activated,please check your mail and activate";
+$lang["lbl_api_something_went_wrong"] = "Something went wrong,please try again!";
+$lang["lbl_api_username_is_required"] = "Email ID is required!";
+$lang["lbl_api_password_is_requiered"] = "Password is required!";
+$lang["lbl_api_invalid_login_id"] = "Invalid Login Parameter";
+$lang["lbl_api_invalid_user_id_pass_key"] = "Invalid Email ID and Password";
+$lang["lbl_api_username_is_already_exist"] = "Email ID is already exist!";
+$lang["lbl_api_email_is_already_exist"] = "Email is already exist!";
+$lang["lbl_api_invalid_login_status"] = "Your session expired,Please login and try again!";
+$lang["lbl_failed_testimonials_post"] = "Please Try Again!";
+$lang["lbl_no_record_found"] = "No record Found!";
+$lang["lbl_api_current_password_did_not_match"] = "Current password did not match!";
+$lang["lbl_api_confirm_password_did_not_match"] = "Confirm password did not match!";
+$lang["lbl_api_all_fields_are_mandatory"] = "All fields are mandatory!";
+$lang["lbl_success_settings_change_password"] = "Password has been changed successfully!";
+$lang["lbl_success_save"] = "Data has been saved successfully";
+$lang["lbl_required_param"] = "Please enter all required parameter";
+$lang["lbl_error_invalid_username"] = "Invalid Email ID!";
+$lang["lbl_success_forgot_password"] = "Verification code has been sent successfully";
+$lang["email_forgotten_password_subject"] = "Forgotten Password Verification";
+$lang['email_activation_subject'] = "Account Activation";
+$lang["lbl_success_profile_update"] = "Profile has been updated successfully";
+$lang["lbl_success_login_successful"] = "Logged in successfully!";
+$lang["lbl_success_registration_successful"] = "You have been registered successfully,please check your email to activate your account!";
+$lang["lbl_password_change_successful"] = "Password has been changed successfully";
+$lang["lbl_message_successfully_sent"] = "Message has been sent successfully";
+$lang["lbl_please_provide_a_10_digit_phone_number"] = "Please provide a 10 digit phone number";
+$lang["lbl_your_provided_code_matched"] = "Your provided code matched";
+$lang["lbl_your_provided_code_did_not_matched"] = "Your provided code did not match";
+$lang["lbl_please_generate_a_new_passcode_and_try_again"] = "Please generate a new passcode and try again";
+$lang["lbl_email_sent_successfully"] = "Email has been sent successfully";
+$lang["lbl_api_mobile_number_is_already_exist"] = "Mobile no is already existed";
+?>

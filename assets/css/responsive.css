@@ -1,0 +1,1362 @@
+/*==================================================
+=                Responsive styles                 =
+==================================================*/
+
+
+/* Large Devices, Wide Screens [lg]*/
+
+@media (min-width: 1200px) {}
+
+
+/* Medium Devices, Desktops [md]*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*footer Section*/
+    .footer_section .get_social p {
+        padding-right: 15px;
+    }
+    .home_section.other_page .logo {
+        max-width: 220px;
+    }
+    .sign-up,
+    .sign-in {
+        padding: 8px 30px;
+        font-size: 16px;
+    }
+    .home_section .mid-section-logo h1 {
+        font-size: 25px;
+    }
+    .home_section .mid-section-logo h4 {
+        font-size: 19px;
+    }
+    .play-store img {
+        max-width: 40%;
+    }
+    body.invitation-fm-section .play-store img {
+        max-width: 100%;
+    }
+    .home_section .right_mob-img,
+    .home_section .left_mob-img {
+        max-width: 90%;
+    }
+    .contact-section .contact_form .captcha .form-control {
+        height: 43px;
+    }
+    .register-section .social_bg {
+        margin-right: 2px;
+    }
+    .home_section.seperate_page .right-navbar {
+        margin-left: 20px;
+    }
+    .home_section.seperate_page .lender_name {
+        font-size: 13px;
+        width: 125px;
+    }
+    .home_section.seperate_page .notification {
+        margin-left: 0px;
+    }
+    .dropdown.left-navbar .list-group.dropdown-menu a.list-group-item,
+    .dropdown.right-navbar .list-group.dropdown-menu a.list-group-item {
+        min-width: 214px;
+    }
+    .dropdown.left-navbar .has-sub-dropdown .list-group {
+        left: 205px;
+    }
+    .wallet-select-user-profile .right_panel {
+        padding-right: 70px;
+    }
+    .wallet-select-user-sort li {
+        margin-bottom: 10px;
+    }
+    .mode-section .mode-body h2 {
+        font-size: 19px;
+    }
+    .left-edit-panel {
+        width: 60%;
+    }
+    .hero-body .avatar-container {
+        max-width: 135px;
+        height: auto;
+    }
+    .right-prv-panel {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .hero-section .profile_view h2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .register-section .reg-form .form-group.status-bar .status-p:before {
+        width: 225px;
+    }
+    .register-section .reg-form .form-group.status-bar .strong_txt.status-p:after {
+    width: 225px;
+}
+.register-section .reg-form .form-group.status-bar .good_txt.status-p:after {
+    width: 150px;
+    }
+.register-section .reg-form .form-group.status-bar .weak_txt.status-p:after {
+    width: 75px;
+    }
+.tab_hdng li {
+  margin: 0 8px;
+  width: 23%;
+}
+.tab_hdng li strong {
+  font-size: 18px;
+}
+.payment_tran li {
+  display: inline-block;
+  margin-right: 2px;
+  max-width: 157px;
+  min-width: 157px;
+}
+.payment_btn {
+  margin: 0 auto;
+  width: 46%;
+}
+.payment_wrap {
+  margin: 0 auto;
+  width: 100%;
+}
+}
+
+
+/* Small Devices, Tablets  [sm]*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer_section .contact_us h2 {
+        font-size: 22px;
+    }
+    .footer_section .envo_m p {
+        font-size: 18px;
+        padding-bottom: 13px;
+        padding-top: 13px;
+    }
+    .footer_section .social_bg {
+        width: 37px;
+        height: 46px;
+        font-size: 26px;
+    }
+    .footer_section .get_social p {
+        font-size: 12px;
+        padding-right: 2px;
+    }
+    .home_section.other_page .logo {
+        max-width: 220px;
+    }
+    .home_section.other_page .col-sm-offset-4.col-sm-5.fix_w_m {
+        margin-left: 29.333333%;
+    }
+    .about-section .member-profile h1.large_caption {
+        padding-bottom: 34px;
+        font-size: 50px;
+    }
+    .about-section .member-profile h4 {
+        padding-top: 30px;
+    }
+    .sign-up,
+    .sign-in {
+        padding: 6px 19px;
+        font-size: 13px;
+    }
+    .home_section .mid-section-logo h1 {
+        font-size: 17px;
+    }
+    .home_section .mid-section-logo h4 {
+        font-size: 14px;
+    }
+    .home_section span.coming-soon span {
+        font-size: 20px;
+    }
+    .play-store img {
+        max-width: 40%;
+    }
+    body.invitation-fm-section .play-store img {
+        max-width: 100%;
+    }
+    .home_section .right_mob-img {
+        max-width: 78%;
+    }
+    .home_section .left_mob-img {
+        max-width: 78.2%;
+    }
+    .home_section .logo {
+        padding-bottom: 14px;
+    }
+    .gap-380 {
+        min-height: 212px;
+    }
+    .home_section .navbar-nav>li>a {
+        padding: 0px 3px 12px 12px;
+    }
+    .home_section .navbar {
+        margin-bottom: 17px;
+    }
+    .home_section .left_mob,
+    .home_section .right_mob {
+        padding-top: 48px;
+    }
+    .home_section .left_hand {
+        top: 196px;
+        max-width: 129%;
+    }
+    .home_section .right_hand {
+        top: 220px;
+        max-width: 129%;
+    }
+    .home_section .triangle-down {
+        height: 108px;
+    }
+    .home_section .triangle-down-container {
+        height: 92px;
+    }
+    .contact-section .contact_form .captcha .form-control {
+        height: 33px;
+    }
+    .contact-section .contact_form .captcha .refresh {
+        right: 0px;
+        top: 9px;
+        background-size: 66%;
+    }
+    .contact-section .social_bg {
+        margin-right: 0px;
+    }
+    .register-section .reg-form {
+        margin: 0px -15px 0px -15px;
+    }
+    .home_section.seperate_page .mid-section-logo {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .home_section.seperate_page h3 {
+        font-size: 18px;
+        word-break: break-all;
+    }
+    .home_section.seperate_page .notification {
+        margin-left: 0px;
+    }
+    .home_section.seperate_page .leander_user,
+    .home_section.seperate_page .leander_user_img {
+        height: 35px;
+        width: 35px;
+        font-size: 16px;
+        padding-top: 6px;
+        margin-right: 4px;
+    }
+    .home_section.seperate_page .lender_name {
+        font-size: 11px;
+        width: 90px;
+    }
+    .home_section.seperate_page .right-navbar {
+        margin-left: 22px;
+    }
+    .dropdown.left-navbar .list-group.dropdown-menu a.list-group-item,
+    .dropdown.right-navbar .list-group.dropdown-menu a.list-group-item {
+        font-size: 10px;
+        padding: 8px 10px 9px 10px;
+        min-width: 165px;
+    }
+    .dropdown.left-navbar .has-sub-dropdown .list-group {
+        left: 158px;
+    }
+    .list-group a.list-group-item.arrow:after {
+        top: 9px;
+        font-size: 8px;
+    }
+    .wallet-select-user-sort li {
+        margin-bottom: 10px;
+    }
+    .text-sm-center {
+        text-align: center;
+    }
+    .wallet-balance-allocation .balance-addcash-orange h3 {
+        font-size: 29px;
+    }
+    .wallet-balance-allocation .balance-addcash-orange h3 .rupee-sign:before {
+        font-size: 25px;
+    }
+    .wallet-balance-allocation .balance-addcash-orange .add_cash {
+        font-size: 15px;
+        padding: 8px 29px;
+    }
+    .wallet-balance-allocation .balance-givecash-white .give_cash {
+        font-size: 15px;
+        padding: 6px 26px;
+    }
+    .wallet-balance-allocation .balance-givecash-white h3 {
+        font-size: 28px;
+    }
+    .wallet-balance-allocation .balance-givecash-white h3 .rupee-sign:before {
+        font-size: 23px;
+    }
+    .wallet-section .wallet-auto-allocation .select_users {
+        font-size: 12px;
+        padding: 6px 18px;
+    }
+    .mode-section .mode-body h2 {
+        font-size: 19px;
+    }
+    .left-edit-panel {
+        width: 86%;
+    }
+    .hero-section h2 {
+        font-size: 15px;
+        line-height: 16px;
+        margin-right: -15px;
+    }
+    .hero-body .avatar-container {
+        max-width: 94px;
+        height: auto;
+    }
+    .hero-body .full-edit-panel:first-child {
+        padding-top: 10px;
+    }
+    .hero-body .full-edit-panel {
+        width: 88%;
+    }
+    .email-vf .hero-container {
+        padding: 0px 42px 0px 32px;
+    }
+    .mobile-vf .hero-container {
+        padding: 0px 32px 0px 42px;
+    }
+    .vf-mob-num {
+        min-height: 97px;
+    }
+    .registration-navbar-r .right-navbar {
+        margin-left: 0px;
+    }
+    .registration-navbar-r {
+        padding-right: 17px;
+    }
+    .registration-navbar-r .leander_user_img {
+        height: 30px;
+        width: 30px;
+        margin-right: 8px;
+    }
+    .registration-navbar-r .lender_name {
+        font-size: 13px;
+        width: 101px;
+    }
+    .registration-navbar-r .right-navbar .drop-cart:before {
+        right: -20px;
+    }
+    .profile_view {
+        position: relative;
+    }
+    .right-box-hero .left-view-panel {
+        width: 90%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .right-box-hero .right-view-panel {
+        width: 90%;
+        float: none;
+    }
+    .right-view-panel .label-css {
+        min-width: 180px;
+    }
+    .right-box-hero .edit-status-panel {
+        width: 9%;
+        float: none;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .profile-section .hero-panel h1 {
+        font-size: 25px;
+        margin: 45px 0px 0px 0px;
+    }
+    .right-prv-panel {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .profile_kyc_view .addmore .btn-orange,
+    .profile_kyc_view .details_button .btn-white {
+        font-size: 10px;
+        padding: 8px 23px;
+        margin-top: 8px;
+    }
+    .right-box-hero.profile_view_main .pencile-edit {
+        margin-top: 28px;
+    }
+    .hero-section .profile_view .h_line.profile-name-view-h {
+        margin-top: 0px;
+    }
+    .register-section .reg-form .form-group.status-bar .status-p:before {
+        width: 250px;
+    }
+    .register-section .reg-form .form-group.status-bar .strong_txt.status-p:after {
+        width: 250px;
+    }
+    .register-section .reg-form .form-group.status-bar .good_txt.status-p:after {
+        width: 166px;
+    }
+    .register-section .reg-form .form-group.status-bar .weak_txt.status-p:after {
+        width: 83px;
+    }
+    a.show_more {
+  width: 23%;
+}
+.tab_lender_content_sec {
+  border: medium none;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #e2e2e2;
+}
+.conversation-section h3 {
+  font-size: 33px;
+}
+.tab_hdng li strong {
+  font-size: 14px;
+}
+.tab_hdng li span {
+  font-size: 30px;
+}
+.tab_hdng li {
+  margin: 0 -4px;
+  width: 26%;
+}
+.payment_btn {
+  margin: 0 auto;
+  width: 75%;
+}
+}
+
+
+/* Small Devices Potrait */
+
+@media (max-width: 767px) {
+    /* Global styles*/
+    .xs-center-t {
+        text-align: center !important;
+    }
+    .footer_section .contact_us,
+    .footer_section .envo_m,
+    .footer_section .get_social {
+        text-align: center;
+        border-right: none;
+        display: inline-block;
+        padding: 2px;
+        margin-left: 0px;
+    }
+    .footer_section .contact_us h2 {
+        font-size: 22px;
+    }
+    .footer_section .envo_m p {
+        font-size: 18px;
+    }
+    .footer_section .social_bg {
+        width: 37px;
+        height: 46px;
+        font-size: 26px;
+    }
+    .footer_section .get_social p {
+        font-size: 12px;
+        padding-right: 2px;
+    }
+    .nav>li {
+        float: left;
+    }
+    .home_section .navbar-nav>li>a {
+        font-size: 11px;
+        padding: 0px 6px 7px 6px;
+    }
+    .home_section.other_page .logo {
+        max-width: 173px;
+        top: 7px;
+    }
+    .home_section.other_page .triangle-down {
+        height: 78px;
+    }
+    .nav-container {
+        min-height: 128px;
+    }
+    .home_section .mid-section-logo {
+        padding: 10px 15px 0px 15px;
+    }
+    .about-section .member-profile h1.large_caption {
+        padding-bottom: 34px;
+        font-size: 50px;
+    }
+    .home_section.other_page .fix_w_m {
+        max-width: 312px;
+    }
+    .sign-up,
+    .sign-in {
+        padding: 4px 16px;
+        font-size: 11px;
+    }
+    .home_section .mid-section-logo h1 {
+        font-size: 15px;
+    }
+    .home_section .mid-section-logo h4 {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    .home_section .play-store {
+        padding-bottom: 3px;
+    }
+    .home_section span.coming-soon span {
+        font-size: 13px;
+        padding-top: 6px;
+    }
+    .play-store img {
+        max-width: 40%;
+    }
+    body.invitation-fm-section .play-store img {
+        max-width: 100%;
+    }
+    .home_section .logo {
+        max-width: 165.98px;
+        padding-bottom: 11px;
+    }
+    .home_section .right_mob-img,
+    .home_section .left_mob-img {
+        max-width: 80%;
+    }
+    .gap-380 {
+        min-height: 172px;
+    }
+    .home_section .navbar-nav>li>a {
+        padding: 0px 3px 12px 12px;
+    }
+    .home_section .navbar {
+        margin-bottom: 4px;
+    }
+    .home_section .left_mob,
+    .home_section .right_mob {
+        padding-top: 69px;
+        padding-bottom: 0px;
+    }
+    .home_section .left_hand {
+        top: 162px;
+        max-width: 129%;
+    }
+    .home_section .right_hand {
+        top: 200px;
+        max-width: 129%;
+    }
+    .home_section .triangle-down {
+        height: 76px;
+    }
+    .home_section .triangle-down-container {
+        height: 55px;
+    }
+    .home_section .col-lg-4.m_column_both {
+        width: 27.333333%;
+        padding-right: 0px;
+        padding-left: 0px;
+        max-width: 130.33px;
+    }
+    .home_section .col-lg-4.m_column_middle {
+        width: 45.333333%;
+        max-width: 202.34px;
+    }
+    .home_section.home_page .row {
+        display: inline-block;
+    }
+    .home_section.home_page .container {
+        text-align: center;
+    }
+    .home-secondary-content .item {
+        padding-bottom: 50px;
+    }
+    .home-secondary-content {
+        padding-top: 70px;
+        padding-bottom: 17px;
+    }
+    i.img-overflow {
+        max-height: 263px;
+        overflow: hidden;
+        display: block;
+    }
+    .contact-section .contact_form .captcha .form-control {
+        height: 39px;
+        border-left: 1px solid #e6e6e6;
+    }
+    .contact-section .contact_form .captcha .refresh {
+        right: 0px;
+        bottom: 1px;
+        background-size: 66%;
+        top: inherit;
+    }
+    .contact-section .social_bg {
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
+    .contact-section .contact_us_dls .fa-envelope-o {
+        font-size: 24px;
+    }
+    .contact-section .contact_us_dls p.envo_m {
+        font-size: 16px;
+        padding-bottom: 24px;
+    }
+    .contact-section .contact_form .captcha-holder {
+        float: none;
+        width: 100%;
+        margin-bottom: 11px;
+        text-align: center;
+    }
+    .contact-section .contact_form .captcha-input-holder {
+        float: none;
+        width: 100%;
+    }
+    .register-section .reg-form {
+        margin: 0px 0px 0px 0px;
+    }
+    .home_section.seperate_page .logo {
+        max-width: 145px;
+        padding: 10px 0px 8px 0px;
+        float: left;
+    }
+    .home_section.seperate_page .mid-section-logo {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .home_section.seperate_page .navbar {
+        float: right;
+        margin-right: 20px;
+    }
+    .home_section.seperate_page {
+        position: relative;
+    }
+    .mob-nav-l {
+        position: absolute;
+        bottom: 13px;
+        z-index: 999999999999999;
+        width: auto;
+        padding-left: 15px;
+    }
+    .home_section.seperate_page h3 {
+        font-size: 15px;
+        position: relative;
+        left: -13px;
+    }
+    .home_section.seperate_page .notification {
+        margin-left: 0px;
+    }
+    .home_section.seperate_page .leander_user,
+    .home_section.seperate_page .leander_user_img {
+        height: 35px;
+        width: 35px;
+        font-size: 16px;
+        padding-top: 6px;
+        margin-right: 4px;
+    }
+    .home_section.seperate_page .lender_name {
+        font-size: 11px;
+        width: 90px;
+    }
+    .home_section.seperate_page .right-navbar {
+        margin-left: 22px;
+        margin-right: 15px;
+    }
+    .dropdown.left-navbar .list-group.dropdown-menu a.list-group-item,
+    .dropdown.right-navbar .list-group.dropdown-menu a.list-group-item {
+        font-size: 10px;
+        padding: 8px 10px 9px 10px;
+        min-width: 165px;
+    }
+    .list-group a.list-group-item.arrow:after {
+        top: 9px;
+        font-size: 8px;
+    }
+    .home_section.seperate_page .notification-section.mob-nav-r {
+        text-align: right;
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+    .dropdown.left-navbar .has-sub-dropdown .list-group {
+        left: 156px;
+    }
+    .text-xs-center {
+        text-align: center;
+    }
+    .wallet-section .add_cash,
+    .wallet-section .give_cash {
+        font-size: 15px;
+        padding: 9px 32px;
+    }
+    h1.large_caption,
+    .wallet-section .wallet-balance h1.wallet-rupee {
+        font-size: 42px;
+    }
+    .wallet-section .wallet-balance h1.wallet-rupee .rupee-sign:before {
+        font-size: 36px;
+        padding-right: 9px;
+    }
+    .wallet-section {
+        padding-bottom: 40px;
+    }
+    .wallet-select-user-sort li {
+        margin-bottom: 10px;
+    }
+    .wallet-select-user-profile .right_panel {
+        padding-right: 65px;
+    }
+    .wallet-balance-allocation .balance-addcash-orange h3 {
+        font-size: 29px;
+    }
+    .wallet-balance-allocation .balance-addcash-orange h3 .rupee-sign:before {
+        font-size: 25px;
+    }
+    .wallet-balance-allocation .balance-addcash-orange .add_cash {
+        font-size: 15px;
+        padding: 8px 29px;
+    }
+    .wallet-balance-allocation .balance-givecash-white .give_cash {
+        font-size: 15px;
+        padding: 6px 26px;
+    }
+    .wallet-balance-allocation .balance-givecash-white h3 {
+        font-size: 28px;
+    }
+    .wallet-balance-allocation .balance-givecash-white h3 .rupee-sign:before {
+        font-size: 23px;
+    }
+    .wallet-section .wallet-auto-allocation .select_users {
+        font-size: 12px;
+        padding: 6px 18px;
+    }
+    .wallet-balance-allocation .balance-addcash-orange h5,
+    .wallet-balance-allocation .balance-givecash-white h6 {
+        display: block;
+        padding-right: 0px;
+        text-align: center;
+        padding-bottom: 7px;
+        margin: auto;
+    }
+    .mode-section .mode-body h2 {
+        font-size: 19px;
+    }
+    .settings-form-container {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .hero-panel {
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    .profile-section .hero-panel h1 {
+        font-size: 31px;
+        margin: 20px 0px 6px 0px;
+    }
+    .left-edit-panel {
+        width: 100%;
+        max-width: 441px;
+    }
+    .hero-section .form-group {
+        width: 55%;
+        max-width: 227px;
+    }
+    .hero-panel .right-hero-panel {
+        margin: 0px auto;
+        float: none;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .hero-panel .right-hero-panel>li {
+        float: none;
+        display: inline-block;
+        padding: 11px 18px 14px 18px;
+        border-left: none;
+        position: relative;
+    }
+    .right-box-hero {
+        border-left: none;
+        padding: 0px 15px 0px 15px;
+        margin-top: 20px;
+    }
+    .hero-box-check {
+        margin-bottom: 10px;
+    }
+    .hero-body .avatar-container {
+        display: inline-block;
+        float: none;
+        margin-top: 20px;
+    }
+    .right-box-hero-no-border {
+        padding: 0px 15px 0px 15px;
+    }
+    .hero-body .full-edit-panel {
+        width: 100%;
+    }
+    .mobile-vf {
+        margin-top: 60px;
+    }
+    .email-vf .hero-container {
+        padding: 0px 40px 0px 40px;
+    }
+    .mobile-vf .hero-container {
+        padding: 0px 40px 0px 40px;
+    }
+    .registration-navbar-r {
+        text-align: center;
+        padding-bottom: 16px;
+        padding-top: 57px;
+        padding-right: 15px;
+    }
+    .registration-navbar-r .dropdown.right-navbar .list-group {
+        left: inherit;
+        right: -16px;
+    }
+    .registration-navbar-r .right-navbar {
+        margin-left: 0px;
+    }
+    .hero-section .btn_group_sav_cancl {
+        padding-left: 0px;
+        padding-top: 35px;
+        text-align: center;
+    }
+    .profile_view {
+        position: relative;
+    }
+    .right-box-hero .left-view-panel {
+        width: 94%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .right-box-hero .right-view-panel {
+        width: 94%;
+        float: none;
+    }
+    .right-view-panel .label-css {
+        min-width: 180px;
+    }
+    .right-box-hero .edit-status-panel {
+        width: 9%;
+        float: none;
+        position: absolute;
+        top: 25px;
+        right: 8px;
+    }
+    .profile-section.prof-bank-view .hero-section h2 {
+        margin: 0px 0px 10px 0px;
+        max-width: none;
+        float: none;
+        text-align: center;
+    }
+    .hero-panel .right-hero-panel>li.addmore,
+    .hero-panel .right-hero-panel>li.details_button {
+        padding: 27px 21px 15px 0px;
+        border-left: 0px solid #3384c8;
+        vertical-align: top;
+    }
+    .details_button .btn-white,
+    .addmore .btn-orange {
+        font-size: 10px;
+        padding: 8px 23px;
+    }
+    .hero-body {
+        padding: 0px 0px 10px 0px;
+    }
+    .right-prv-panel {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .hero-section .profile_view h2 {
+        max-width: none;
+        text-align: center;
+    }
+    .right-view-panel .label-css br {
+        display: none;
+    }
+    .profile_kyc_view .hero-panel .right-hero-panel>li {
+        display: block;
+        float: left;
+        padding: 11px 18px 7px 18px;
+    }
+    .profile-section .profile_kyc_view .hero-panel h1 {
+        display: block;
+    }
+    .profile_kyc_view .right-hero-panel {
+        display: inline-block;
+    }
+    .profile_kyc_view .hero-panel .right-hero-panel>li:nth-child(3) {
+        clear: both;
+    }
+    .profile_kyc_view .hero-panel .right-hero-panel>li.addmore,
+    .profile_kyc_view .hero-panel .right-hero-panel>li.details_button {
+        padding: 13px 6px 7px 0px;
+    }
+    .right-box-hero.profile_view_main .pencile-edit {
+        margin-top: 22px;
+    }
+    body.invitation-fm-section .home_section .play-store {
+        min-width: 296px;
+    }
+.irr_bg{
+    padding: 10px 0;
+}
+.actual_bg{
+    padding: 10px 0;
+}
+.project_bg{
+    padding: 10px 0;
+}
+.tab_lender_content h2.resp-accordion {
+  font-size: 15px;
+  margin: 0;
+  padding: 10px 15px;
+  text-transform: capitalize;
+}
+.tab_lndr_lft {
+    float: none;
+    width: 100%;
+}
+.conversation-section h3 {
+  font-size: 30px;
+  margin: 0 0 15px;
+  text-align: center;
+  width: 100%;
+}
+.tab_lndr_rt {
+    border-left: medium none;
+    padding-left: 0;
+}
+.tab_lndr_rt {
+  float: none;
+  width: 100%;
+}
+.table-responsive-sec td {
+  color: #5a5a5a;
+  font-size: 10px;
+  font-weight: 600;
+  padding-left: 12px;
+}
+a.show_more {
+  width: 40%;
+}
+.table-responsive-sec th {
+  font-size: 11px;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+.payment_wrap {
+  width: 93%;
+}
+.payment_btn {
+  margin: 0 auto;
+  width: 100%;
+}
+.payment_btn .btn{
+    padding: 6px 15px;
+    font-size: 16px;
+}
+.payment_btn .btn {
+  margin: 0 7px;
+}
+
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media (max-width: 479px) {
+    .hidden-xxs {
+        display: none!important;
+    }
+    .col-xxs-12 {
+        width: 100%;
+    }
+    .col-xxs-11 {
+        width: 91.66666667%;
+    }
+    .col-xxs-10 {
+        width: 83.33333333%;
+    }
+    .col-xxs-9 {
+        width: 75%;
+    }
+    .col-xxs-8 {
+        width: 66.66666667%;
+    }
+    .col-xxs-7 {
+        width: 58.33333333%;
+    }
+    .col-xxs-6 {
+        width: 50%;
+    }
+    .col-xxs-5 {
+        width: 41.66666667%;
+    }
+    .col-xxs-4 {
+        width: 33.33333333%;
+    }
+    .col-xxs-3 {
+        width: 25%;
+    }
+    .col-xxs-2 {
+        width: 16.66666667%;
+    }
+    .col-xxs-1 {
+        width: 8.33333333%;
+    }
+    .col-xs-offset-12 {
+        margin-left: 100%;
+    }
+    .col-xxs-offset-11 {
+        margin-left: 91.66666667%;
+    }
+    .col-xxs-offset-10 {
+        margin-left: 83.33333333%;
+    }
+    .col-xxs-offset-9 {
+        margin-left: 75%;
+    }
+    .col-xxs-offset-8 {
+        margin-left: 66.66666667%;
+    }
+    .col-xxs-offset-7 {
+        margin-left: 58.33333333%;
+    }
+    .col-xxs-offset-6 {
+        margin-left: 50%;
+    }
+    .col-xxs-offset-5 {
+        margin-left: 41.66666667%;
+    }
+    .col-xxs-offset-4 {
+        margin-left: 33.33333333%;
+    }
+    .col-xxs-offset-3 {
+        margin-left: 25%;
+    }
+    .col-xxs-offset-2 {
+        margin-left: 16.66666667%;
+    }
+    .col-xxs-offset-1 {
+        margin-left: 8.33333333%;
+    }
+    .col-xxs-offset-0 {
+        margin-left: 0;
+    }
+    .about-section .about_us_left h3,
+    .about-section .about_us_left p,
+    .about-section .about_us_right h2,
+    .about-section .about_us_right p {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .about-section .center-t-a {
+        margin: 33px 0px 33px 0px;
+    }
+    .about-section .member-profile h1.large_caption {
+        margin-top: 11px;
+        padding-bottom: 18px;
+    }
+    .about-section .about_us_left {
+        padding-right: 0px;
+        padding-bottom: 35px;
+    }
+    .about-section .member-profile h1.large_caption:after {
+        right: 0px;
+        margin: auto;
+    }
+    .about-section .member-profile h4 {
+        max-width: inherit;
+        text-align: center;
+        padding-top: 23px;
+    }
+    .home_section.other_page .triangle-down {
+        height: 59px;
+    }
+    .home_section .left_mob {
+        position: relative;
+        left: 174%;
+        width: 61px;
+        z-index: 999;
+        padding-top: 135px;
+    }
+    .home_section .right_mob {
+        position: absolute;
+        right: 174%;
+        width: 61px;
+        z-index: 999;
+        padding-top: 135px;
+    }
+    .home_section .col-lg-4.m_column_both {
+        width: 5.333333%;
+        position: relative;
+        max-width: 29.89px;
+    }
+    .home_section .col-lg-4.m_column_middle {
+        width: 90.333333%;
+        max-width: 228.27px;
+    }
+    .home_section .left_hand {
+        top: 191px;
+        max-width: 129%;
+    }
+    i.img-overflow {
+        max-height: 128px;
+    }
+    .sign-up,
+    .sign-in {
+        padding: 4px 22px;
+    }
+    .navbar-nav {
+        margin: 0.5px -15px;
+    }
+    .home_section .navbar {
+        margin-bottom: -4px;
+    }
+    .home_section .logo {
+        padding-bottom: 4px;
+    }
+    .about-section {
+        padding: 59px 0px 45px 0px;
+    }
+    .contact-section .contact_form h3,
+    .contact_us_dls,
+    .about-section .member-profile h1.large_caption {
+        text-align: center;
+    }
+    .contact-section .btn-success {
+        display: block;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+    .contact-section .social_bg {
+        margin-right: 2px;
+        margin-bottom: 10px;
+    }
+    .contact-section {
+        padding: 53px 0px 40px 0px;
+    }
+    .register-section .social_bg {
+        margin-right: 0px;
+    }
+    .home_section.seperate_page .lender_name {
+        display: none;
+    }
+    .home_section.seperate_page .right-navbar {
+        margin-left: 12px;
+        margin-right: 15px;
+    }
+    .home_section.seperate_page .logo {
+        max-width: 120px;
+    }
+    .home_section .navbar-nav>li>a {
+        padding: 9px 3px 5px 5px;
+        font-size: 9px;
+    }
+    .dropdown.right-navbar .list-group.dropdown-menu {
+        left: -104px;
+    }
+    .dropdown.left-navbar .has-sub-dropdown .list-group {
+        left: 146px;
+    }
+    .dropdown.left-navbar .list-group.dropdown-menu a.list-group-item,
+    .dropdown.right-navbar .list-group.dropdown-menu a.list-group-item {
+        min-width: 144px;
+    }
+    /* conversation-details-collapse style */
+    .conversation-section .conv-ticket_card .ticket-status {
+        font-size: 9px;
+        padding: 6px 12px 6px 12px;
+    }
+    .conversation-section .conv-ticket_card .t_date {
+        font-size: 9px;
+        padding-top: 7px;
+    }
+    .conversation-section .conv-speech .chat-box {
+        padding: 12px 35px 41px 12px;
+    }
+    .conversation-section .conv-speech .expend_speech {
+        right: -21px;
+        top: 14px;
+    }
+    .chat-box .img-small,
+    .panel-footer .img-small {
+        width: 30px;
+        height: 30px;
+    }
+    .chat-box .media-left,
+    .panel-footer .media-left,
+    .chat-box .media-right {
+        width: 37px;
+        height: 37px;
+    }
+    .home_section.seperate_page h3 {
+        font-size: 12px;
+        left: -15px;
+    }
+    .text-xxs-center {
+        text-align: center;
+    }
+    .conversation-section .conv-filter-addnew .add-new {
+        margin-top: 15px;
+    }
+    .wallet-section .add_cash,
+    .wallet-section .give_cash {
+        font-size: 13px;
+        padding: 8px 22px;
+    }
+    .wallet-section .wallet-header h2 {
+        font-size: 11px;
+        padding: 0px 5px;
+    }
+    .wallet-select-user-profile .right_panel {
+        padding-right: 31px;
+        float: none !important;
+        padding-top: 15px;
+    }
+    .wallet-select-user-profile .p_date,
+    .wallet-select-user-profile .p_year {
+        display: inline-block;
+    }
+    .wallet-section .wallet-auto-allocation h5 {
+        padding-right: 0px;
+    }
+    .wallet-balance-allocation .balance-addcash-orange .add_cash,
+    .wallet-balance-allocation .balance-givecash-white .give_cash,
+    .wallet-section .wallet-auto-allocation .select_users {
+        float: none !important;
+        margin-top: 10px;
+    }
+    .check-sign {
+        float: none !important;
+    }
+    .settings-hero .btn_group .btn-success.btn-blue {
+        font-size: 13px;
+        padding: 11px 40px;
+    }
+    .settings-hero .btn_group .btn_cancl {
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+    .all_r_res {
+        display: block;
+    }
+    .wallet-section .wallet-header h2,
+    .settings-section .settings-header h2 {
+        font-size: 11px;
+        padding: 0px 3px;
+        padding-bottom: 22px;
+    }
+    .settings-section.settings-e-vf-section {
+        padding-bottom: 55px;
+    }
+    .full-edit-panel .group-block {
+        float: none;
+        width: 100%;
+        min-width: 200px;
+    }
+    .hero-section .form-group {
+        min-width: 200px;
+    }
+    .btn_sm {
+        font-size: 14px;
+        padding: 8px 38px;
+    }
+    .btn_sm.btn_cancl {
+        padding: 8px 27px;
+    }
+    .hero-section .btn_group_pro_sav_cancl {
+        padding-top: 33px;
+    }
+    .hero-body .status_check:before {
+        top: -28px;
+    }
+    .hero-body .status_check:first-child:before {
+        top: 0px;
+    }
+    .hero-section h2 {
+        font-size: 18px;
+        margin: 14px 0px -7px 0px;
+        line-height: 20px;
+    }
+    .home_section.other_page .mid-section-logo,
+    .home_section.other_page .triangle-down {
+        max-width: 302px;
+    }
+    .registration-navbar-r .dropdown.right-navbar .list-group.dropdown-menu {
+        left: inherit;
+    }
+    .email-vf .hero-container,
+    .mobile-vf .hero-container {
+        padding: 0px 20px 0px 20px;
+    }
+    .hero-container h2 {
+        margin-top: 13px;
+        margin-bottom: 10px;
+    }
+    .email-vf.verified-em .hero-container,
+    .mobile-vf.verified-mb .hero-container {
+        padding: 0px 15px 0px 15px;
+    }
+    .profile-section .hero-body .status_check:before {
+        top: 38px;
+        right: 15px;
+    }
+    .profile-section .box-btn {
+        position: relative;
+        bottom: -15px;
+    }
+    .profile-section .box-btn {
+        position: static;
+    }
+    .right-box-hero .edit-status-panel {
+        top: 23px;
+        right: 23px;
+    }
+    .label-css-strg {
+        max-width: none;
+        display: block;
+    }
+    .label-css {
+        display: block;
+    }
+    .right-box-hero .left-view-panel {
+        width: 90%;
+    }
+    .hero-panel .right-hero-panel>li.addmore,
+    .hero-panel .right-hero-panel>li.details_button {
+        padding: 8px 0px 4px 0px;
+        display: block;
+    }
+    .upload_container {
+        width: 170px;
+        height: 118px;
+        display: inline-block;
+        position: relative;
+        transform: translateY(2%);
+    }
+    .hero-section label {
+        max-width: none;
+        width: 100%;
+    }
+    .right-box-hero {
+        margin-top: 45px;
+    }
+    .profile_view.prof-full {}
+    .profile_view.prof-full .profile_view_main.right-box-hero.right-box-hero .left-view-panel {
+        width: 84%;
+    }
+    .profile_view.prof-full .right-box-hero.profile_view_main h3 {
+        margin-top: -2px;
+    }
+    body.invitation-fm-section .home_section .play-store {
+        min-width: 236px;
+    }
+    body.invitation-fm-section .home_section .play-store label {
+        display: block;
+    }
+    .register-section .reg-form .form-group.status-bar .status-p:before {
+        width: 175px;
+    }
+    .register-section .reg-form .form-group.status-bar .good_txt.status-p:after {
+        width: 126px;
+    }
+    .register-section .reg-form .form-group.status-bar .strong_txt.status-p:after {
+        width: 175px;
+    }
+}

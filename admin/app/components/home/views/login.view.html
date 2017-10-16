@@ -1,0 +1,37 @@
+ <div class="container">
+        <div class="row">
+
+
+ <div class="col-lg-offset-3 col-lg-6">
+              <div class="midsection_form">
+                <div class="animated bounceIn">
+                <a href="#"><!-- <img src="assets/img/logo.png" title="obr" alt="obr"> --></a>
+                </div>
+                <div class="form_sec">
+                <div id="login-alert" class="alert alert-success"style=" margin-top: 5px;" ng-if="successMessage">{{successMessage}} </div>
+                <div id="login-alert" class="alert alert-danger col-sm-12" style="text-align:center; margin-top: 5px;" ng-if="errorMessage">{{errorMessage}}</div>
+
+                 <form class="login-form" name="loginForm" role="form" novalidate ng-submit="doLogin(loginData)">
+
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="user" ng-model="loginData.username" ng-required="true"  placeholder="Login">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" name="password" ng-model="loginData.password" ng-required="true" class="form-control" 
+                       placeholder="Password">
+                    </div>
+                    <div class="forgotpswd"><a href="#/home/forgetpassword">Forgot Password?</a></div>
+
+                    <button type="submit" class="btn btn-default btn_green animated" 
+                    id="form-submit" ng-disabled="loginForm.$invalid">Login
+                    </button>
+
+                  </form>
+                </div>
+              </div>
+          </div>
+        </div>
+
+
+        </div>
+    </div>

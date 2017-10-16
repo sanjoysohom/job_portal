@@ -1,0 +1,63 @@
+<!--<div class="main_right_pannel main_rbg_clr">
+      <div class="right_top_bg clearafter">
+        <ul class="top_right_ul animated slideInLeft">
+          <li class="dropdown"><a id="dLabel" data-target="#" href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="usr_img"><img src="img/demo_usr_img.png" alt=""></span>Welcome, Admin<i class="fa fa-angle-right left_slider_btn" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu top_right_submenu animated swing" aria-labelledby="dLabel">
+            <li><a href=""><img src="img/change_pass.png" alt=""> My Profile</a></li>
+          </ul>
+          </li>
+          <li><a href=""><span class="only_for_img"><img src="img/top_msg_box.png" alt=""></span>Global Message</a></li>
+          <li><a href=""><span class="only_for_img"><img src="img/top_log_out.png" alt=""></span>Logout</a></li>
+        </ul>
+    </div>-->
+
+    <div class="container-fluid white_rbg_clr">
+    <h2 class="main_page_heading">Product Details</h2>
+    </div>
+
+    <div class="main_right_cont_bg">
+
+    <div class="container-fluid custom_padd_main">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+    
+    <div class="row">
+   
+<div class="col-md-12">
+<div id="login-alert" class="alert alert-danger col-sm-12" style="text-align:center; margin-top: 5px;" ng-if="errorMessage">{{errorMessage}}</div>
+
+<div id="login-alert" class="alert alert-success col-sm-12"style="text-align:center; margin-top: 5px;" ng-if="successMessage">{{successMessage}} </div>
+      <div class="back_to_item_list clearafter">
+      <h3 class="frm_heding_txt">Product Details</h3><a href="#/dashboard/products/list" class="back_text"><i class="fa fa-angle-left" aria-hidden="true"></i>Back to  products list</a>
+      </div>
+      </div>
+    </div>
+
+        <div class="row">
+          <div class="col-md-12"><div class="form-group"><input type="text" class="form-control" ng-model="productsDetail.product_name" placeholder="Products name" readonly="" ></div></div>
+
+         
+           <div class="col-md-12"><div class="form-group"><select  class="form-control" ng-model ="productsDetail.category_name" disabled="true" ><option value="">Select Category</option>
+           <option value="1">Laptops</option><option value="3">Cameras</option><option value="2">Mobiles</option></select></div></div>
+
+          
+         <div class="col-md-12"><div class="form-group"><input type="text" readonly="" class="form-control" ng-model="productsDetail.product_price" placeholder="Products price" ></div></div>
+
+  
+           
+
+            </div>
+
+            </div>
+
+            
+        </div>
+        </form>        
+
+      </div>
+      </div>
+      
+
+    </div>
+
+    </div>

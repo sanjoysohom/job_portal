@@ -1,0 +1,30 @@
+<ul id="accordion" class="nav main_left_ul animated zoomInDown">
+        <li>
+        <a href="#/dashboard/welcome" class="{{(breadcrumb == 'Welcome') ? 'active' : ''}}"><span class="left_i"><img src="assets/img/dashboard_home.png" alt=""></span> <span class="ul_mid_txt">Dashboard (Home)</span></a>
+        </li>
+       
+         
+        <li>
+        <a href="#/dashboard/product/list" class="{{(breadcrumb == 'Products list') ? 'active' : ''}} {{(breadcrumb == 'Products') ? 'active' : ''}} "><span class="left_i"><img src="assets/img/dashboard_home.png" alt=""></span> <span class="ul_mid_txt">Products List</span></a>
+        </li>
+        
+
+       <!--  <li>
+        <a href="#/dashboard/manage_page/list" class="{{(breadcrumb == 'manage_page') ? 'active' : ''}} {{(breadcrumb == 'manage_page') ? 'active' : ''}} "><span class="left_i"><img src="assets/img/dashboard_home.png" alt=""></span> <span class="ul_mid_txt">Manage Page</span></a>
+        </li> -->
+
+
+
+      
+       </ul>
+
+
+      <script>
+      $(document).on('click','.extend_menupage',function(){
+      $("#collapseOne").collapse('show');
+      $("#collapseOne").addClass( "hide_menu_page");
+      $('#collapseOne').collapse('hide');
+
+      
+		});
+      </script>

@@ -1,0 +1,105 @@
+<!--<div class="main_right_pannel main_rbg_clr">
+      <div class="right_top_bg clearafter">
+        <ul class="top_right_ul animated slideInLeft">
+          <li class="dropdown"><a id="dLabel" data-target="#" href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="usr_img"><img src="img/demo_usr_img.png" alt=""></span>Welcome, Admin<i class="fa fa-angle-right left_slider_btn" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu top_right_submenu animated swing" aria-labelledby="dLabel">
+            <li><a href=""><img src="img/change_pass.png" alt=""> My Profile</a></li>
+          </ul>
+          </li>
+          <li><a href=""><span class="only_for_img"><img src="img/top_msg_box.png" alt=""></span>Global Message</a></li>
+          <li><a href=""><span class="only_for_img"><img src="img/top_log_out.png" alt=""></span>Logout</a></li>
+        </ul>
+    </div>-->
+
+    <div class="container-fluid white_rbg_clr">
+    <h2 class="main_page_heading">Update Image</h2>
+    </div>
+
+    <div class="main_right_cont_bg">
+
+    <div class="container-fluid custom_padd_main">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+    
+    <div class="row">
+   
+<div class="col-md-12">
+<div id="login-alert" class="alert alert-danger col-sm-12" style="text-align:center; margin-top: 5px;" ng-if="errorMessage">{{errorMessage}}</div>
+
+<div id="login-alert" class="alert alert-success col-sm-12"style="text-align:center; margin-top: 5px;" ng-if="successMessage">{{successMessage}} </div>
+      <div class="back_to_item_list clearafter">
+      <h3 class="frm_heding_txt">Update Image</h3><a href="#/dashboard/product/list" class="back_text"><i class="fa fa-angle-left" aria-hidden="true"></i>Back to  products list</a>
+      </div>
+      </div>
+    </div>
+    
+        <form class="creat_evnt_frm_fld" name="addproducts" role="form" 
+        novalidate="" ng-submit="doUpdateImage()">
+        <div class="row">
+         
+         
+
+          <div class="col-md-12"><div class="form-group has-feedback"><input type="text" class="form-control" placeholder="Product Image" aria-describedby="inputWarning2Status">
+          <span class="img_upload_posi" aria-hidden="true"><label class="browser_img_btn">
+              <input type="file" class="brwsr_input sr-only" id="productImage" name ="productImage" multiple="true"></label></span>
+
+          </div>
+          <p class="img_upld_ins" style="color:red">[ Only formats are allowed : jpeg, jpg, png ]</p>
+          </div>
+                   
+          <div class="col-md-12"><div class="img_space"><img src="{{productsDetail.product_firstimage}}" alt="" id="profile_image_preview"></div></div>
+
+
+            <div class="col-md-12"><div class="btn_cnterposi">
+            <input type="submit" class="btn btn-default crtenewevent_sbmit_btn" value="Update image" >
+            </div>
+
+            </div>
+
+            
+        </div>
+        </form>        
+
+      </div>
+      </div>
+      
+
+    </div>
+
+    </div>
+
+
+  <script type="text/javascript">
+  $(function(){
+
+    $("#productImage").change(function (){
+
+
+      var fileExtension = ['jpeg', 'jpg', 'png'];
+        if ($.inArray($(this).val().split('.').pop().toLowerCase(), fileExtension) == -1) {
+            //alert("Only formats are allowed : "+fileExtension.join(', '));
+            $('.img_upld_ins').html("[Only formats are allowed : "+fileExtension.join(', ')+']');
+            $('#code').hide();
+            return false;
+        }else{
+          angular.element(this).scope().uploadproImg(this);
+            readURL(this,"profile_image_preview");
+            $('#code').show();
+        }
+
+     
+        });
+    
+
+    });
+
+    function readURL(input,id){
+        if (input.files && input.files[0]){
+            var reader = new FileReader();
+            reader.onload = function (e){
+                $('#'+id).attr('src', e.target.result);
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
